@@ -19,4 +19,9 @@ public class EmployeeTest {
     public void canRaiseSalary() {
         assertEquals(12100.0, employee.raiseSalary(100.0), 0.01);
     }
+
+    @Test
+    public void canPayBonus() {
+        assertEquals(120.0, employee.payBonus(), 0.01);
+    }
 }
